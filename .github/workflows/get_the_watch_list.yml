@@ -15,4 +15,4 @@ jobs:
     - name: curl
       uses: wei/curl@v1
       with:
-        args: https://runewatch.com/api/cases/mixedlist >> watch-list.json
+        args: https://runewatch.com/api/cases/mixedlist -o watch-list.json
