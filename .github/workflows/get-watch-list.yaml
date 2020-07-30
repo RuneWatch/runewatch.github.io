@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: watchlist
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -15,4 +15,4 @@ jobs:
     - name: curl
       uses: wei/curl@v1
       with:
-        args: --upload-file watch-list.json https://runewatch.com/api/cases/mixedlist
+        args: --upload-file /watch-list.json https://runewatch.com/api/cases/mixedlist
