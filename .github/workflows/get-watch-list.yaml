@@ -6,7 +6,7 @@ name: CI
 # events but only for the master branch
 on:
   schedule:
-  - cron: "*/15 * * * *"
+  - cron: "*/1 * * * *"
 
 jobs:
   curl:
